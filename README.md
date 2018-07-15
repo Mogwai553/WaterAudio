@@ -23,7 +23,7 @@ AudioLib.assign_music("Music.mp3")
 3) Choose what audio you want to be your watermark and how long it will pause in between loops (default 500 milliseconds)
 
 ```python
- AudioLib.assign_watermark("Watermark.mp3",)
+ AudioLib.assign_watermark("Watermark.mp3")
 ```
 4) Export the file
 
@@ -36,6 +36,6 @@ AudioLib.assign_music("Music.mp3")
 from . import audio_lib as AudioLib
 if __name__ == "__main__":
   AudioLib.assign_music("Music.mp3")
-  AudioLib.assign_watermark("Watermark.mp3",)
+  AudioLib.assign_watermark("Watermark.mp3")
   file = AudioLib.export("export.mp3","mp3")
 ```
