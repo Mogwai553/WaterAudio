@@ -39,3 +39,6 @@ if __name__ == "__main__":
   AudioLib.assign_watermark("Watermark.mp3")
   file = AudioLib.export("export.mp3","mp3")
 ```
+## Note
+
+You are allowed to pass in a file handle into the assign_music, assign_watermark, and export functions
