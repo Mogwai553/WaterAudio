@@ -20,7 +20,7 @@ from . import audio_lib as AudioLib
 AudioLib.assign_music("Music.mp3")
 ```
 
-3) Choose what audio you want to be your watermark and how long it will pause in between loops (default 500 milliseconds)
+3) Choose what audio you want to be your watermark and how long it will pause in between loops (default 5000 milliseconds)
 
 ```python
  AudioLib.assign_watermark("Watermark.mp3")
