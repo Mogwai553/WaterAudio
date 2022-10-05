@@ -1,3 +1,4 @@
+# Зубов Владислав 05.10.2022
 from pydub import AudioSegment
 from os import listdir
 from os import path
